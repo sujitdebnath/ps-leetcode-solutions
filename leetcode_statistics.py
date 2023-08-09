@@ -3,7 +3,7 @@ import os
 
 
 def find_all_topics():
-    return [dir for dir in os.listdir(os.getcwd()) if os.path.isdir(os.path.join(os.getcwd(), dir))]
+    return [dir for dir in os.listdir(os.getcwd()) if os.path.isdir(os.path.join(os.getcwd(), dir)) and dir != '.git']
 
 def find_all_solutions(topic_name):
     abs_dir_path = os.path.join(os.getcwd(), topic_name)
