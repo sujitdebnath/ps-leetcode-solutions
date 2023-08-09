@@ -49,13 +49,13 @@ if __name__ == '__main__':
         if all_todo_sol_list:
             todo_dict[topic] = all_todo_sol_list
     
-    print("----------------- Leetcode Statistics -----------------\n")
+    print(f"\n{'-'*20} {'Leetcode Statistics'} {'-'*20}\n")
     final_dataframe.loc['Total'] = final_dataframe.sum()
     print(final_dataframe)
-    print("\n-------------------------------------------------------")
+    print(f"\n{'-'*61}")
 
     if todo_dict:
-        print("\n--------------------- To-Do List ---------------------")
+        print(f"\n{'-'*25} {'To-Do List'} {'-'*25}")
         for topic in todo_dict.keys():
             print("{} ({}) => {}".format(topic, len(todo_dict[topic]), (", ").join(todo_dict[topic])))
-        print("------------------------------------------------------")
+        print(f"{'-'*62}\n")
