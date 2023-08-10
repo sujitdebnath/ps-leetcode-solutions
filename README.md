@@ -24,18 +24,18 @@ To provide an overview of the locally organized problems, I've created a Python 
 ```bash
 -------------------- LeetCode Statistics --------------------
 
-Problem Category  | Solved | To-Do | Dup Solved | # of Files
+                  Solved   To-Do   Dup Solved   # of Files
 ------------------------------------------------------------
-SQL               |   8    |   2   |     0      |    10
-Linked List       |   8    |   0   |     2      |    10
-Stack             |   2    |   0   |     0      |     2
-Math              |  14    |   1   |     0      |    15
-Binary Search     |   3    |   0   |     1      |     4
-String            |  13    |   0   |     6      |    19
-Tree              |   1    |   0   |     0      |     1
-Array             |  25    |   1   |     9      |    35
+SQL                 8        2         0           10
+Linked List         8        0         2           10
+Stack               2        0         0            2
+Math               14        1         0           15
+Binary Search       3        0         1            4
+String             13        0         6           19
+Tree                1        0         0            1
+Array              25        1         9           35
 ------------------------------------------------------------
-Total             |  74    |   4   |    18      |    96
+Total              74        4        18           96
 
 ------------------------------------------------------------
 
