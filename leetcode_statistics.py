@@ -33,7 +33,7 @@ def find_todo_list(solution_list):
 
 if __name__ == '__main__':
     all_topics      = find_all_topics()
-    all_columns     = ["Solved", "To-Do", "Dup Solved", "# of Files"]
+    all_columns     = ["Solved", "To-Do", "Dup Solved", "Files Count"]
     final_dataframe = pd.DataFrame(columns=all_columns, index=all_topics)
     todo_dict       = dict()
 
