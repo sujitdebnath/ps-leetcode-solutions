@@ -19,7 +19,7 @@ I've organized the repository by categorizing problems into sets, such as Arrays
 
 ## Repository Insights
 
-To provide an overview of the locally organized problems, I've created a Python script, `leetcode_statistics.py`, which calculates and displays statistics of organized problems in the repository, shown below,
+To provide an overview of the locally organized problems, I've created a Python script, [leetcode_statistics.py](/leetcode_statistics.py), which calculates and displays statistics of organized problems in the repository, shown below,
 
 ```bash
 -------------------- LeetCode Statistics --------------------
