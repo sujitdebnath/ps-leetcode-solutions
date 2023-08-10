@@ -24,8 +24,7 @@ To provide an overview of the locally organized problems, I've created a Python 
 ```bash
 -------------------- LeetCode Statistics --------------------
 
-                  Solved   To-Do   Dup Solved   # of Files
-------------------------------------------------------------
+                  Solved   To-Do   Dup Solved   Files Count
 SQL                 8        2         0           10
 Linked List         8        0         2           10
 Stack               2        0         0            2
@@ -34,7 +33,6 @@ Binary Search       3        0         1            4
 String             13        0         6           19
 Tree                1        0         0            1
 Array              25        1         9           35
-------------------------------------------------------------
 Total              74        4        18           96
 
 ------------------------------------------------------------
