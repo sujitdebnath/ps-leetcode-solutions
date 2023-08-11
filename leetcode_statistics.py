@@ -3,7 +3,7 @@ import os
 
 
 def find_all_topics():
-    return [dir for dir in os.listdir(os.getcwd()) if os.path.isdir(os.path.join(os.getcwd(), dir)) and dir != '.git']
+    return [dir for dir in os.listdir(os.getcwd()) if os.path.isdir(os.path.join(os.getcwd(), dir)) and dir not in ['.git', 'z - forum']]
 
 def find_all_solutions(topic_name):
     abs_dir_path = os.path.join(os.getcwd(), topic_name)
@@ -50,6 +50,7 @@ if __name__ == '__main__':
             todo_dict[topic] = all_todo_sol_list
     
     print(f"\n{'-'*20} {'Leetcode Statistics'} {'-'*20}\n")
+    final_dataframe              = final_dataframe.sort_index()
     final_dataframe.loc['Total'] = final_dataframe.sum()
     print(final_dataframe)
     print(f"\n{'-'*61}")
