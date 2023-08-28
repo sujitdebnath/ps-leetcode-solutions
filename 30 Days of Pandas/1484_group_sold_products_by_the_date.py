@@ -5,7 +5,7 @@ def products_list(products_df):
 
 def categorize_products(activities: pd.DataFrame) -> pd.DataFrame:
     activities_df = activities.drop_duplicates()
-    
+
     sold_products     = pd.DataFrame({'sell_date': activities_df['sell_date'].unique()})
     num_sold_products = activities_df.groupby('sell_date')['product'].count().reset_index(name='num_sold')
     sold_products_all = pd.merge(sold_products, num_sold_products, on='sell_date', how='left')
